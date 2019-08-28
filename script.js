@@ -5,6 +5,8 @@ let myFunction = function(arg1) {
         let str = arg1.trim();
         if (str.length > 30) {
             return str.substring(0, 30) + '...';
+        } else {
+            return str;
         }
     } else {
         return ('В функцию передана не строка');
